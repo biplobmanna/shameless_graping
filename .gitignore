@@ -1,0 +1,4 @@
+# things not to include
+__pycache__
+*_notes
+build
