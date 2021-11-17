@@ -10,8 +10,16 @@ Since, searching for one's name is kinda shameless, hence the name is inspired f
 ---
 
 ### TO-DO:
-- [ ] find how to perfrom google search using links
-- [ ] find the proper HTML elements to read from the scraper
+- [x] find how to perfrom google search using links
+- [x] find the proper HTML elements to read from the scraper
+    * the div class names are random strings, so that cannot be used
+    * the a links are too many, so need to filter them
+    * filter strings are hardcoded right now
+- [ ] convert the hardcoded program to one using itemloader
+    * convert the strings to proper urls
+    * have more string processing to filter out unnecessary strings
+    * have a list of keywords that can describe me, and check on those
+    * have a list of blacklisted keywords, which can be used for filter
 - [ ] store the links in the DB (SQLite) - maybe make a design of the data to be stored
 - [ ] code the actual program
 - [ ] deploy in scrapinghub
